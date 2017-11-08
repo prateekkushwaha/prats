@@ -7,7 +7,7 @@ public class Fibonacci {
 	private static int a = 0;
 	private static int b = 1;
 	private static int sum;
-	
+
 	public static void main(String[] args) {
 
 		System.out.println("Enter the limit of Fibonacci series: ");
@@ -16,16 +16,19 @@ public class Fibonacci {
 		int limit = scan.nextInt();
 
 		System.out.print(a + " " + b + " ");
-		while (sum <= limit) {
+		while (true) {
 
 			sum = a + b;
+
 			a = b;
+
 			b = sum;
 
-			System.out.print(sum + " ");
-
+			if (sum <= limit)
+				System.out.print(sum + " ");
+			else
+				break;
 		}
-
 		scan.close();
 	}
 }
