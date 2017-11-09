@@ -1,4 +1,4 @@
-package commonprograms;
+package arrayprograms;
 
 import java.util.Arrays;
 import java.util.HashSet;
