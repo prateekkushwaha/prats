@@ -107,7 +107,7 @@ public class ArrayRotation {
 		ArrayUtility.printArray(array);
 	}
 
-	public static void revereseArray(int arr[], int start, int end) {
+	private static void revereseArray(int arr[], int start, int end) {
 
 		int temp;
 		while (start < end) {
