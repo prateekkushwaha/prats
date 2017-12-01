@@ -17,7 +17,6 @@ public class MaxSumInSubArray {
 			max_so_far = Math.max(current_max, max_so_far);
 		}
 		System.out.println(max_so_far);
-
 	}
 
 }
