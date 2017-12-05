@@ -8,6 +8,7 @@ public class PairWithGivenSumInSortedAndRotatesArray {
 
 		int[] array = { 11, 15, 6, 8, 9, 10 };
 
+		/* Given a sorted and rotated array, find if there is a pair with a given sum */
 		boolean flag = searchForSumInArray(array, 16);
 
 		if (flag)
